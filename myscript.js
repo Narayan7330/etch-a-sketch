@@ -1,14 +1,40 @@
 const container = document.querySelector("#container")
+let btn = document.querySelector("#btn");
 
-for(let i = 1;i <= 256;i++){
+btn.addEventListener("click", () => 
+  {
+    let gridsize = prompt("enter a grid size between 1-100");
+
+let x = Number(gridsize);
+if (!isNaN(x) && x>=1 && x<=100){
+  container.innerHTML = "";
+for(let i = 1;i <= x * x ;i++){
+
   const div = document.createElement('div');
-  // div.style.cssText = "border:1px solid black; height:41.76px;width:41.76px";
+let squaresize = 600 / x;
   div.classList.add("squareDiv");
   container.appendChild(div);
+  div.setAttribute(`style`,`box-sizing: border-box;
+  border:1px solid black; 
+  height:${squaresize}px;
+  width:${squaresize}px;`)
 
   div.addEventListener('mouseover',()=> {
     div.style.backgroundColor = "black";
   })
 }
+} else {
+  alert ("enter between 1 to 100");
+}
+
+})
+
+
+
+
+
+
+
+
 
 

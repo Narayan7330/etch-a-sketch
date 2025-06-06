@@ -1,5 +1,5 @@
 body{
-  backcolor: rgb(171, 146, 42);
+  background-color: rgb(194, 190, 190);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -15,12 +15,7 @@ body{
  
 }
 
-.squareDiv{
-  box-sizing: border-box;
-  border:1px solid black; 
-  height:37.5px;
-  width:37.5px
-}
+
  h1{
   font-size: 50px;
   font-family: 'Courier New', Courier, monospace;
@@ -28,4 +23,5 @@ body{
   color: blueviolet;
 
  }
+
  
