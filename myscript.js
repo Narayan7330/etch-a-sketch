@@ -3,7 +3,7 @@ let btn = document.querySelector("#btn");
 
 btn.addEventListener("click", () => 
   {
-    let gridsize = prompt("enter a grid size between 1-100");
+    let gridsize = prompt("Enter grid size (1-100) for an X × X grid:");
 
 let x = Number(gridsize);
 if (!isNaN(x) && x>=1 && x<=100){
