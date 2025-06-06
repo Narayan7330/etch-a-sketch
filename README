@@ -1,6 +1,36 @@
-Etch-a-Sketch (Work in Progress)
-This project is currently in development.
+# Etch-a-Sketch Grid
 
-Project Overview
-The goal is to build a browser-based Etch-a-Sketch app using HTML, CSS, and JavaScript.
-Users will be able to draw by hovering over a grid of squares.
+Hey there! This is a fun little Etch-a-Sketch web app where you can create your own grid and “draw” by just moving your mouse over the squares. It’s simple, interactive, and lets you pick how big your grid is!
+
+
+
+## What It Does
+
+- Lets you choose a grid size from 1 to 100 (so, for example, a 16 means a 16×16 grid)
+- When you hover over any square, it changes color to black — just like drawing!
+- The squares automatically adjust so the whole grid fits nicely inside a 600×600 pixel box
+- Every time you change the grid size, it wipes the old grid clean and starts fresh
+
+
+## How To Use It
+
+1. Open the `index.html` file in your favorite browser.
+2. Click the **Change Grid** button.
+3. Enter a number between 1 and 100 when prompted. This will be the width and height of your grid.
+4. Move your mouse over the squares to start coloring and “drawing.”
+5. Want a different grid? Just click **Change Grid** again and enter a new number!
+
+
+
+## What’s Included
+
+- `index.html` — the main page with the button and container
+- `style.css` — styles that make everything look neat and tidy
+- `myscript.js` — the JavaScript that builds the grid and handles the drawing effect
+
+
+## What You Need
+
+Just a modern browser — no fancy tools or downloads needed!
+
+Feel free to play around, tweak the code, and make it your own. Happy drawing! 🎨✨
